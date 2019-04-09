@@ -30,7 +30,7 @@ information. The user from that point will be able to either dismiss the
 additional information or go to the referenced article.
 
 This will be our first single page app. All of our application views will be
-contained in the provided [index.html](https://github.com/misk-jsd2/Project-2-Feedr/blob/master/index.html) file. Our task, after we pull from the
+contained in the provided [feedr-starter-code/index.html](./feedr-starter-code/index.html) file. Our task, after we pull from the
 respective feed APIs, will be to toggle the appropriate classes and content for
 the provided site architecture.
 
@@ -41,24 +41,23 @@ select the three provided news sources and/or add your own:
 - [Reddit: https://www.reddit.com/top.json](https://www.reddit.com/top.json)
 - [Digg: http://digg.com/api/news/popular.json](http://digg.com/api/news/popular.json)
 
-Get started by opening up the [Project 2 Feedr starter code](https://github.com/misk-jsd2/Project-2-Feedr).
+Get started by opening up the [Project 2 Feedr starter code](./feedr-starter-code).
 
 
 ### Getting Started
 
-Begin by "forking" the starter code repository. You can do so by clicking the "Fork" icon on
-the top right of [this](https://github.com/misk-jsd2/Project-2-Feedr) page. Once
+Begin by "forking" this repository. You can do so by clicking the "Fork" icon on
+the top right of [this page](https://github.com/misk-jsd2/11-project-2-feedr) page. Once
 complete, clone the repository to your computer by running the following
 commands:
 
 ```
 cd ~/<your-misk-js-folder-on-your-computer>/
-git clone https://github.com/<your-username-here>/Project-2-Feedr.git
-cd Project-2-Feedr
+git clone https://github.com/<your-username-here>/11-project-2-feedr.git
+cd 11-project-2-feedr/feedr-starter-code
 ```
 
-You can then open Sublime Text and point it at the `~/<your-misk-js-folder-on-your-computer>/Project-2-Feedr` directory and
-work on the below steps. As you accomplish a feature, be sure to commit it in
+You can then open the directory in your text editor and work on the below steps. As you accomplish a feature, be sure to commit it in
 Git with the following commands:
 
 ```

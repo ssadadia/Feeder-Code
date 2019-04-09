@@ -50,10 +50,11 @@ If you preface the request with the proxy server API as follows...
 ...you should be able to use the Digg API without encountering a cross-domain restriction error. Here's a code example of how you might use the proxy server:
 
 ```js
-$.get("https://accesscontrolalloworiginall.herokuapp.com/http://digg.com/api/news/popular.json", function(results){
-  console.log(results);
-  results.data.feed.forEach(function(result){
-    $("ul").append("<li>"+result.content.title+"</li>")
+$.get("https://accesscontrolalloworiginall.herokuapp.com/http://digg.com/api/news/popular.json", 
+  function(results){
+    console.log(results);
+    results.data.feed.forEach(function(result){
+      $("ul").append("<li>"+result.content.title+"</li>")
   })
 })
 ```
@@ -131,27 +132,6 @@ __Additional UI interaction rules:__
 ---
 
 ### Getting Started
-
-Begin by "forking" the starter code repository. You can do so by clicking the "Fork" icon on
-the top right of [this page](https://github.com/misk-jsd2/Project-2-Feedr) page. Once
-complete, clone the repository to your computer by running the following
-commands:
-
-```
-cd ~/<your-misk-js-folder-on-your-computer>/
-git clone https://github.com/<your-username-here>/Project-2-Feedr.git
-cd Project-2-Feedr
-```
-
-You can then open Sublime Text and point it at the `~/<your-misk-js-folder-on-your-computer>/Project-2-Feedr` directory and
-work on the below steps. As you accomplish a feature, be sure to commit it in
-Git with the following commands:
-
-```
-git add .
-git commit -m "A description of what was added"
-git push -u origin master
-```
 
 Here are some sugestions on where to start:
 
