@@ -1,7 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) In-class Lab: Feedr (3:00)
 
->Note: This class session is intended to help students begin the [Unit 2 Feedr project](../../projects/unit2/project-02.md). Since this is a challenging project, the objective of this lesson is to ensure that all students are set up and know how to get started on the project. This likely will not require the full three hours, so feel free to use a portion of the class time to review any concepts students have struggled with or which you were unable to get to in previous lessons. Any remaining time can be used as "lab time" for students to work on their Unit 2 project.
-
 
 | Timing | Type | Topic |
 | --- | --- | --- |
@@ -32,7 +30,7 @@ information. The user from that point will be able to either dismiss the
 additional information or go to the referenced article.
 
 This will be our first single page app. All of our application views will be
-contained in the provided [index.html](../../projects/unit2/) file. Our task, after we pull from the
+contained in the provided [index.html](https://github.com/misk-jsd2/Project-2-Feedr/blob/master/index.html) file. Our task, after we pull from the
 respective feed APIs, will be to toggle the appropriate classes and content for
 the provided site architecture.
 
@@ -43,23 +41,23 @@ select the three provided news sources and/or add your own:
 - [Reddit: https://www.reddit.com/top.json](https://www.reddit.com/top.json)
 - [Digg: http://digg.com/api/news/popular.json](http://digg.com/api/news/popular.json)
 
-Get started by opening up the [Unit 2 project starter code](../../projects/unit2/).
+Get started by opening up the [Project 2 Feedr starter code](https://github.com/misk-jsd2/Project-2-Feedr).
 
 
 ### Getting Started
 
 Begin by "forking" the starter code repository. You can do so by clicking the "Fork" icon on
-the top right of [this](https://github.com/generalassembly-studio/JS-Unit-2-Project-Starter-Code) page. Once
+the top right of [this](https://github.com/misk-jsd2/Project-2-Feedr) page. Once
 complete, clone the repository to your computer by running the following
 commands:
 
 ```
-cd ~/Sites/
-git clone https://github.com/<your-username-here>/feedr.git
-cd feedr
+cd ~/<your-misk-js-folder-on-your-computer>/
+git clone https://github.com/<your-username-here>/Project-2-Feedr.git
+cd Project-2-Feedr
 ```
 
-You can then open Sublime Text and point it at the `~/Sites/feedr` directory and
+You can then open Sublime Text and point it at the `~/<your-misk-js-folder-on-your-computer>/Project-2-Feedr` directory and
 work on the below steps. As you accomplish a feature, be sure to commit it in
 Git with the following commands:
 
