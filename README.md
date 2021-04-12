@@ -40,14 +40,14 @@ Get started by opening up the [Project 2 Feedr starter code](./feedr-starter-cod
 ### Getting Started
 
 Begin by "forking" this repository. You can do so by clicking the "Fork" icon on
-the top right of [this page](https://github.com/misk-jsd2/11-project-2-feedr) page. Once
+the top right of [this page](https://github.com/misk-jsd2/12-project-2-feedr) page. Once
 complete, clone the repository to your computer by running the following
 commands:
 
 ```
-cd ~/<your-misk-js-folder-on-your-computer>/
-git clone https://github.com/<your-username-here>/11-project-2-feedr.git
-cd 11-project-2-feedr/feedr-starter-code
+cd ~
+git clone https://github.com/<your-username-here>/12-project-2-feedr.git
+cd 12-project-2-feedr/feedr-starter-code
 ```
 
 You can then open the directory in your text editor and work on the below steps. As you accomplish a feature, be sure to commit it in
